@@ -53,8 +53,6 @@ class Card extends Component {
         const indexOfLastUser = this.state.currentPage * this.state.UserPerPage
         const indexOfFirstUser = indexOfLastUser - this.state.UserPerPage
         const currentUsers = this.state.user_data.slice(indexOfFirstUser, indexOfLastUser)
-        console.log('isEditMode', this.state.isEditMode);
-        console.log('goingToEditdata', this.state.goingToEditdata);
         let filterWith = ''
         if (this.state.isAvailable == true) {
             filterWith = this.state.user_data
@@ -111,25 +109,6 @@ class Card extends Component {
                     prev_paginate={this.prevPaginate}
                 />
             </>
-            // <div className='main_card'>
-            //     <div className='image_section'>
-            //         <img className='image'  />
-            //         <div className='status'>status</div>
-            //     </div>
-            //     <div className='details_section'>
-            //         <div className='details'>
-
-            //             <p className='para_head'>Name:</p>
-            //             <p className='para'>Anurag</p>
-            //             <p className='para_head'>Email</p>
-            //             <p className='para'>xyz@gmail.com</p>
-            //             <p className='para_head'>Gender: <span className='span'>male</span></p>
-
-
-            //         </div>
-            //         <div></div>
-            //     </div>
-            // </div>
         );
     }
 }
