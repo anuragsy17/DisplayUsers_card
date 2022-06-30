@@ -1,0 +1,46 @@
+.top_nav{
+    width: 100vw;
+    height: 50px;
+    background-color: #ecf0f1;
+}
+
+.top_nav .search_container{
+    float: right;
+    margin: 12px 40px 0px 0px
+}
+
+.search_button{
+padding: 5px;
+margin-left: 2px;
+font-weight: bold;
+border: none;
+border-radius: 3px;
+color: white;
+background-color: #3498db;
+}
+
+.top_nav .search_container input{
+    padding: 5px;
+    border: 1px solid gainsboro;
+}
+
+.currentUserId{
+    width: 160px;
+    height: 70px;
+    // background-color: white;
+    margin: 20px 0px 0px 12px;
+    font-weight: bold;
+}
+
+.close{
+    margin: 5px 0px 0px 5px;
+    padding: 0px;
+    //position: absolute;
+    color: red;
+    font-size:x-large;
+    background: none;
+    border: none;
+    //border: 1px solid gainsboro;
+    //outline: none;
+    cursor: pointer;
+  }

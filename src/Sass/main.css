@@ -1,0 +1,185 @@
+.card {
+  display: inline-block;
+}
+
+.main_card {
+  width: 23vw;
+  height: 27vh;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.6);
+          box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.image_section {
+  width: 8vw;
+  height: 27vh;
+}
+
+.details_section {
+  width: 15vw;
+  height: 27vh;
+  background-color: #dff9fb;
+}
+
+.image {
+  width: 8vw;
+  height: 24vh;
+  border-bottom: 1px solid black;
+}
+
+.status {
+  font-size: small;
+  height: 2vh;
+  margin-top: -5px;
+  text-align: center;
+}
+
+.para {
+  margin: 0px 0px 0px 5px;
+}
+
+.para_head {
+  font-weight: bold;
+  margin: 2px 0px 2px 5px;
+}
+
+.span {
+  font-weight: normal;
+}
+
+.edit_btn {
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  margin-left: 150px;
+  margin-top: 5px;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #3498db;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  border: 1px solid #2e2d2d;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.top_nav {
+  width: 100vw;
+  height: 50px;
+  background-color: #ecf0f1;
+}
+
+.top_nav .search_container {
+  float: right;
+  margin: 12px 40px 0px 0px;
+}
+
+.search_button {
+  padding: 5px;
+  margin-left: 2px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #3498db;
+}
+
+.top_nav .search_container input {
+  padding: 5px;
+  border: 1px solid gainsboro;
+}
+
+.currentUserId {
+  width: 160px;
+  height: 70px;
+  margin: 20px 0px 0px 12px;
+  font-weight: bold;
+}
+
+.close {
+  margin: 5px 0px 0px 5px;
+  padding: 0px;
+  color: red;
+  font-size: x-large;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.modal_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal {
+  background-color: #eae3a2;
+  width: 40vw;
+  height: 70vh;
+  max-width: 90%;
+  padding: 10px 50px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.close_popup {
+  margin: 5px 0px 0px 5px;
+  padding: 0px;
+  float: right;
+  color: red;
+  font-size: xx-large;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close_viewModal {
+  margin: 5px 0px 0px 240px;
+  padding: 0px;
+  color: red;
+  font-size: xx-large;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
