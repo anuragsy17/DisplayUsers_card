@@ -1,5 +1,25 @@
+.modal-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modals{
+  background-color: rgb(234, 227, 162);
+  width: 30vw;
+  height: 70vh;
+  max-width: 90%;
+  padding: 10px 50px;
+  border-radius: 10px;
+  position: relative;
+}
 .close_viewModal{
-    margin: 5px 0px 0px 240px;
+    margin: 45px 0px 0px 180px;
     padding: 0px;
     
     //position: absolute;
@@ -10,4 +30,17 @@
     //border: 1px solid gainsboro;
     //outline: none;
     cursor: pointer;
+  }
+  .modal_details{
+    margin: 50px 0px 20px 0px;
+  }
+  .user_details{
+    border-bottom: 1px solid black;
+  }
+  .modal p{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .modal span{
+    font-weight: normal;
   }

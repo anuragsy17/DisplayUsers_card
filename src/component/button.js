@@ -28,7 +28,7 @@ export class Search extends Component {
 export class SaveBtn extends Component {
     state = {  } 
     render() { 
-        return (<button onClick={()=>{this.props.saveDetails()}}>Save</button>);
+        return (<button className='saveBtn' onClick={()=>{this.props.saveDetails()}}>Save</button>);
     }
 }
  

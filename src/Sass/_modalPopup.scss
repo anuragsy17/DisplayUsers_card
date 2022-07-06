@@ -11,7 +11,7 @@
   }
   .modal{
     background-color: rgb(234, 227, 162);
-    width: 40vw;
+    width: 30vw;
     height: 70vh;
     max-width: 90%;
     padding: 10px 50px;
@@ -31,4 +31,53 @@
     //border: 1px solid gainsboro;
     //outline: none;
     cursor: pointer;
+  }
+  .name{
+    margin: 100px 0px 10px 0px;
+  }
+  .gender{
+    margin: 10px 0px 10px 0px;
+  }
+  .label{
+    font-size: 15px;
+    font-weight: bold;
+
+  }
+  .input_name{
+    width: 310px;
+    height: 20px;
+    margin-left: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+  }
+  .input_email{
+    width: 310px;
+    height: 20px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+  }
+
+  .input_gender{
+    width: 305px;
+    height: 30px;
+    margin-left: 17px;
+  }
+  .input_status{
+    width: 305px;
+    height: 30px;
+    margin-left: 26px;
+  }
+
+  .saveBtn{
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: #2980b9;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
   }
